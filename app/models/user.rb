@@ -17,4 +17,15 @@ class User < ApplicationRecord
 
   has_many :following, through: :this_user_is_following_other_users,
                        source: :followed
+
+  after_create :auto_follow_account
+
+  private
+
+    def auto_follow_account
+      Following.create(
+        follower_id: self.id,
+        followed_id: self.id
+      )
+    end
 end
