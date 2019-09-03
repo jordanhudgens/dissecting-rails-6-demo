@@ -17,3 +17,4 @@
 * [ ] Rails c
 * [ ] Seeds with Faker
 * [ ] Design implementation
+* [ ] Debugging
