@@ -24,3 +24,5 @@ group :development do
 end
 
 gem 'devise', '~> 4.7'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+

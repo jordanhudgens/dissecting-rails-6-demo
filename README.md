@@ -15,5 +15,5 @@
 * [ ] Rails s
 * [ ] Show how to use a different port with the rails server
 * [ ] Rails c
-* [ ] Seeds
+* [ ] Seeds with Faker
 * [ ] Design implementation
