@@ -19,4 +19,4 @@
 * [x] Seeds with Faker
 * [ ] Design implementation
 * [ ] Debugging
-* [ ] Service objects
+* [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
