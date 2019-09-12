@@ -19,3 +19,4 @@
 * [x] Seeds with Faker
 * [ ] Design implementation
 * [ ] Debugging
+* [ ] Service objects
