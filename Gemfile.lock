@@ -80,6 +80,8 @@ GEM
       warden (~> 1.2.3)
     erubi (1.8.0)
     ffi (1.11.1)
+    friendly_id (5.2.5)
+      activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.6.0)
@@ -202,6 +204,7 @@ DEPENDENCIES
   byebug
   devise (~> 4.7)
   faker!
+  friendly_id (~> 5.2, >= 5.2.5)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
