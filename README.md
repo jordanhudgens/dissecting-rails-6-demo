@@ -11,8 +11,8 @@
 * [x] Scaffold generator for Guide
 * [x] Authorization with Petergate
 * [x] Routing
-* [ ] Custom routing
-* [ ] Vanity URLs with Friendly ID
+* [x] Custom routing
+* [x] Vanity URLs with Friendly ID
 * [x] Rails s
 * [x] Show how to use a different port with the rails server
 * [x] Rails c
