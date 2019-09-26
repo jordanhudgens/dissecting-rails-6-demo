@@ -1,6 +1,7 @@
 class GuidesController < ApplicationController
   before_action :set_guide, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  access all: [:show, :index], user: :all, admin: :all
 
   def index
     @guides = Guide.all
