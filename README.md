@@ -23,3 +23,5 @@
 * [ ] Action Text - https://weblog.rubyonrails.org/2018/10/3/introducing-action-text-for-rails-6/
 * [ ] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
 * [ ] Extract for db queries - https://blog.bigbinary.com/2019/06/24/rails-6-adds-array-extract.html
+* [ ] Encrypted credentials - https://www.dailysmarty.com/posts/cheat-sheet-for-working-with-rails-encrypted-credentials
+* [ ] Active Storage - https://www.dailysmarty.com/posts/steps-for-using-active-storage-to-upload-files-to-s3-with-ruby-on-rails
