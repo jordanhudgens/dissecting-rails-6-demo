@@ -10,7 +10,7 @@
 * [x] Model generator for Topic
 * [x] Model generator for Following/self referential
 * [x] Scaffold generator for Guide
-* [x] Authorization with Petergate
+* [ ] Authorization with Petergate
 * [x] Routing
 * [x] Custom routing
 * [x] Vanity URLs with Friendly ID
