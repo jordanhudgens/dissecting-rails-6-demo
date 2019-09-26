@@ -35,6 +35,8 @@ admin = User.create!(
   password_confirmation: "asdfasdf"
 )
 
+puts "Admin user created"
+
 10.times do
   Guide.create!(
     title: Faker::ChuckNorris.fact,
@@ -44,6 +46,8 @@ admin = User.create!(
   )
 end
 
+puts "Guides created for admin"
+
 User.all.each do |user|
   Following.create!(
     follower_id: user.id,
@@ -51,4 +55,4 @@ User.all.each do |user|
   )
 end
 
-puts "Main user created"
+puts "Followings created for admin"
