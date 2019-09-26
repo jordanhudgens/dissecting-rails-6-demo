@@ -6,6 +6,7 @@
 * [x] File system
 * [x] Homepage with controller generator
 * [x] Authentication with Devise
+* [x] Protecting routes with `authenticate_user!`
 * [x] Model generator for Topic
 * [x] Model generator for Following/self referential
 * [x] Scaffold generator for Guide
