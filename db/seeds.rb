@@ -32,7 +32,8 @@ admin = User.create!(
   email: "jordan@devcamp.com",
   username: "jordan",
   password: "asdfasdf",
-  password_confirmation: "asdfasdf"
+  password_confirmation: "asdfasdf",
+  role: "admin"
 )
 
 puts "Admin user created"

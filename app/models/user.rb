@@ -6,7 +6,6 @@ class User < ApplicationRecord
   ## The multiple option can be set to true if you need users to have multiple roles.       ##
   petergate(roles: [:admin, :editor], multiple: false)                                      ##
   ############################################################################################ 
- 
 
   extend FriendlyId
   friendly_id :username, use: :slugged
