@@ -4,6 +4,12 @@
   align-items: center;
   padding: 15px;
 
+  border-bottom: 1px solid #e7e9ea;
+  margin-bottom: 20px;
+  height: 67px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.09);
+
   &__left {
     display: flex;
     justify-content: center;
@@ -23,6 +29,7 @@
       justify-content: center;
       align-items: center;
       border-bottom: 1px solid transparent;
+      transition: 0.5s ease-in-out;
 
       a {
         font-family: $font-light;
