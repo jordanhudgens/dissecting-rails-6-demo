@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 0px 15px;
 
   border-bottom: 1px solid #e7e9ea;
   margin-bottom: 20px;
@@ -24,11 +24,11 @@
 
     &__link {
       margin: 0px 15px;
-      height: 50px;
+      height: 67px;
       display: flex;
       justify-content: center;
       align-items: center;
-      border-bottom: 1px solid transparent;
+      border-bottom: 2px solid transparent;
       transition: 0.5s ease-in-out;
 
       a {
@@ -42,7 +42,7 @@
       }
 
       &:hover {
-        border-bottom: 1px solid $primary;
+        border-bottom: 2px solid $primary;
       }
     }
   }
