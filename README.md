@@ -26,7 +26,7 @@
 * [x] Scss variables
 * [x] Setting page title and descriptions for SEO
 * [ ] Favicons
-* [ ] Custom fonts
+* [x] Custom fonts
 * [x] Debugging
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [ ] Action Text - https://weblog.rubyonrails.org/2018/10/3/introducing-action-text-for-rails-6/

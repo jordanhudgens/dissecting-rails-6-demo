@@ -2,6 +2,7 @@ a {
   color: $primary;
   transition: 0.5s ease-in-out;
   text-decoration: none;
+  font-family: $font-regular;
 
   &:hover {
     color: $primary-dark;
