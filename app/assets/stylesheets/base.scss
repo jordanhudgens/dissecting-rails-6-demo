@@ -1,0 +1,9 @@
+a {
+  color: $primary;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-dark;
+  }
+}
