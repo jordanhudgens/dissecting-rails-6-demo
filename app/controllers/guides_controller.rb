@@ -1,7 +1,6 @@
 class GuidesController < ApplicationController
   before_action :set_guide, only: [:show, :edit, :update, :destroy]
 
-  # TODO
   # show both options
   # maybe show a special route for all guides, even draft ones
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]

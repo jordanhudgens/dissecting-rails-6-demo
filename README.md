@@ -10,7 +10,7 @@
 * [x] Model generator for Topic
 * [x] Model generator for Following/self referential
 * [x] Scaffold generator for Guide
-* [ ] Authorization with Petergate
+* [x] Authorization with Petergate
 * [x] Routing
 * [x] Custom routing
 * [x] Vanity URLs with Friendly ID
@@ -19,8 +19,7 @@
 * [x] Rails c
 * [x] Seeds with Faker
 * [ ] Design implementation
-* [ ] Debugging
-* [ ] Authorization with petergate
+* [x] Debugging
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [ ] Action Text - https://weblog.rubyonrails.org/2018/10/3/introducing-action-text-for-rails-6/
 * [ ] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
