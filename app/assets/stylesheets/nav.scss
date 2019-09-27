@@ -4,8 +4,20 @@
   align-items: center;
 
   &__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     &__logo img {
       width: 42px;
+    }
+
+    &__link {
+      margin: 0px 15px;
+
+      a {
+        color: blue;
+      }
     }
   }
 }
