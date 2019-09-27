@@ -2,4 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &__left {
+    &__logo img {
+      width: 42px;
+    }
+  }
 }
