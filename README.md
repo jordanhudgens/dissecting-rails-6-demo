@@ -22,6 +22,7 @@
 * [ ] Design implementation
 * [x] Working with images from the asset pipeline
 * [x] Utilizing Scss
+* [x] Link tag, inline and with block
 * [ ] Favicons
 * [x] Debugging
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
