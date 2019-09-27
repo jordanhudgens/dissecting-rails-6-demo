@@ -2,20 +2,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px;
 
   &__left {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    &__logo img {
-      width: 42px;
+    &__logo {
+      margin-right: 30px;
+      img {
+        width: 30px;
+      }
     }
 
     &__link {
       margin: 0px 15px;
+
       a {
-        color: #6B6B6B;
+        font-family: $font-light;
+        font-size: 0.9em;
+        color: $highlight;
+
+        &:hover {
+          color: $primary;
+        }
       }
     }
   }
