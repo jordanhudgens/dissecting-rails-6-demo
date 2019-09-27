@@ -24,6 +24,7 @@
 * [x] Utilizing Scss
 * [x] Link tag, inline and with block
 * [x] Scss variables
+* [x] Setting page title and descriptions for SEO
 * [ ] Favicons
 * [x] Debugging
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html

@@ -11,6 +11,7 @@ class GuidesController < ApplicationController
   end
 
   def show
+    @page_title = @guide.title
   end
 
   def new
