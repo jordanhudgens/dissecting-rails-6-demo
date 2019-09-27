@@ -18,6 +18,11 @@
 
     &__link {
       margin: 0px 15px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid transparent;
 
       a {
         font-family: $font-light;
@@ -27,6 +32,10 @@
         &:hover {
           color: $primary;
         }
+      }
+
+      &:hover {
+        border-bottom: 1px solid $primary;
       }
     }
   }
