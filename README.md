@@ -20,7 +20,8 @@
 * [x] Seeds with Faker
 * [ ] Show how partials work, including working with locals
 * [ ] Design implementation
-* [ ] Working with images from the asset pipeline
+* [x] Working with images from the asset pipeline
+* [ ] Utilizing Scss
 * [x] Debugging
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [ ] Action Text - https://weblog.rubyonrails.org/2018/10/3/introducing-action-text-for-rails-6/
