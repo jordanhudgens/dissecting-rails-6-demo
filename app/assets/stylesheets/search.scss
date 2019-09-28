@@ -1,12 +1,12 @@
 .search-box {
-  width: 270px;
+  width: 250px;
   height: 32px;
   border-radius: 100px;
   background-color: $off-white;
   border: 0px;
 
   color: $lightgrey !important;
-  padding-left: 20px;
+  padding-left: 40px;
   font-family: $font-light;
   font-weight: 500;
   font-size: 14px;
@@ -16,7 +16,7 @@
   position: absolute;
   color: $lightgrey;
   margin-left: 14px;
-  margin-top: 11px;
+  margin-top: 8px;
 }
 
 .search-card-wrapper {
