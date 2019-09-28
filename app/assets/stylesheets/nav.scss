@@ -36,8 +36,15 @@
         font-size: 0.9em;
         color: $highlight;
 
-        svg {
+        span {
+          margin-left: 2px;
+        }
+
+        .nav-icon {
           height: 12px;
+          path {
+            fill: $highlight !important;
+          }
         }
 
         &:hover {

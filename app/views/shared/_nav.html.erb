@@ -13,19 +13,22 @@
 
     <div class="nav-wrapper__left__link">
       <%= link_to root_path do %>
-        Topics
+        <%= inline_svg('catagories.svg', class: 'nav-icon') %>
+        <span>Topics</span>
       <% end %>
     </div>
 
     <div class="nav-wrapper__left__link">
       <%= link_to root_path do %>
-        Users
+        <%= inline_svg('users.svg', class: 'nav-icon') %>
+        <span>Users</span>
       <% end %>
     </div>
 
     <div class="nav-wrapper__left__link">
       <%= link_to root_path do %>
-        Posts
+        <%= inline_svg('posts.svg', class: 'nav-icon') %>
+        <span>Posts</span>
       <% end %>
     </div>
   </div>
