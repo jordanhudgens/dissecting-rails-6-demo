@@ -37,4 +37,4 @@
 
 Next todos:
 
-> Continue styling the nav bar, bring in svg icons
+>
