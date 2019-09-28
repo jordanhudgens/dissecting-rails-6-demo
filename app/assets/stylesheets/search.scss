@@ -1,0 +1,24 @@
+.search-box {
+  width: 15.4em !important;
+  border-radius: 100px;
+  background-color: $off-white;
+  border: 0px;
+  @include input-placeholder {
+    color: $grey-white !important;
+    padding-left: 20px;
+    font-family: $light-font;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.fa-search {
+  position: absolute;
+  color: $grey-white;
+  margin-left: 14px;
+  margin-top: 11px;
+}
+
+.search-card-wrapper {
+  padding-top: 42px;
+}
