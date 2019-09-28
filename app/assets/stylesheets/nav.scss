@@ -36,8 +36,15 @@
         font-size: 0.9em;
         color: $highlight;
 
+        svg {
+          height: 12px;
+        }
+
         &:hover {
           color: $primary;
+          path {
+            fill: $primary !important;
+          }
         }
       }
 
