@@ -80,6 +80,8 @@ GEM
       warden (~> 1.2.3)
     erubi (1.8.0)
     ffi (1.11.1)
+    font-awesome-rails (4.7.0.5)
+      railties (>= 3.2, < 6.1)
     friendly_id (5.2.5)
       activerecord (>= 4.0.0)
     globalid (0.4.2)
@@ -209,6 +211,7 @@ DEPENDENCIES
   byebug
   devise (~> 4.7)
   faker!
+  font-awesome-rails (~> 4.7, >= 4.7.0.5)
   friendly_id (~> 5.2, >= 5.2.5)
   inline_svg
   jbuilder (~> 2.7)

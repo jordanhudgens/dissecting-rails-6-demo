@@ -28,4 +28,4 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'mast
 gem 'friendly_id', '~> 5.2', '>= 5.2.5'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'inline_svg'
-
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
