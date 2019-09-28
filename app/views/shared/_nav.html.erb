@@ -34,7 +34,12 @@
   </div>
 
   <div class="nav-wrapper__search">
-    SEARCH bar
+    <%= form_with url: search_query_path, method: :get, local: true do |f| %>
+      <span class="search-wrapper">
+        <span id="search-icon-id" class="fa fa-search"></span>
+        <%= f.text_field :q, id: :q, class: 'form-control search-box', placeholder: 'What do you want to learn today?' %>
+      </span>
+    <% end %>
   </div>
 
   <div class="nav-wrapper__new-post">
