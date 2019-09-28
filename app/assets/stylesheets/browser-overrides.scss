@@ -1,0 +1,24 @@
+.nav-text-box::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: $light-charcoal;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+.nav-text-box::-moz-placeholder {
+  /* Firefox 19+ */
+  color: $light-charcoal;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+.nav-text-box:-ms-input-placeholder {
+  /* IE 10+ */
+  color: $light-charcoal;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+.nav-text-box:-moz-placeholder {
+  /* Firefox 18- */
+  color: $light-charcoal;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
