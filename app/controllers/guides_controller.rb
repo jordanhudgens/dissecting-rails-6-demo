@@ -23,6 +23,7 @@ class GuidesController < ApplicationController
 
   def create
     @guide = Guide.new(guide_params)
+    @guide.user = current_user
 
     respond_to do |format|
       if @guide.save
