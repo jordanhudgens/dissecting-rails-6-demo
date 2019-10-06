@@ -1,4 +1,6 @@
 class Guide < ApplicationRecord
+  has_rich_text :content
+
   belongs_to :topic
   belongs_to :user
 
