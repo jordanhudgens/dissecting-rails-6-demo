@@ -33,7 +33,7 @@
 * [x] Work with gravatars
 * [x] Integrating data validations
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
-* [ ] Action Text - https://edgeguides.rubyonrails.org/action_text_overview.html
+* [x] Action Text - https://edgeguides.rubyonrails.org/action_text_overview.html
 * [ ] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
 * [ ] Extract for db queries - https://blog.bigbinary.com/2019/06/24/rails-6-adds-array-extract.html
 * [ ] Encrypted credentials - https://www.dailysmarty.com/posts/cheat-sheet-for-working-with-rails-encrypted-credentials

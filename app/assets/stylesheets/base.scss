@@ -13,3 +13,9 @@ a {
     color: $primary-dark;
   }
 }
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 21px;
+}
