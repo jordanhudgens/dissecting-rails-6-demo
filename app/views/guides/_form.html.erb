@@ -18,7 +18,8 @@
     </div>
 
     <div class="form-group">
-      UPLOADER
+      <label>Featured image</label>
+      <%= form.drag_and_drop_file_field :featured_image, 'Drag and drop images here!' %>
     </div>
   </div>
 
@@ -27,6 +28,6 @@
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit 'Save', class: 'btn-primary' %>
   </div>
 <% end %>
