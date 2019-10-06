@@ -65,5 +65,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    &__link {
+      padding: 0px 15px;
+    }
   }
 }
