@@ -30,6 +30,7 @@
 * [x] Debugging
 * [x] Show how to utilize Svgs
 * [x] Install font awesome
+* [x] Work with gravatars
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [ ] Action Text - https://weblog.rubyonrails.org/2018/10/3/introducing-action-text-for-rails-6/
 * [ ] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/

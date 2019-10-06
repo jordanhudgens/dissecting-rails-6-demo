@@ -58,7 +58,7 @@
     </div>
 
     <div class="nav-wrapper__right__avatar">
-      AVATAR
+      <%= gravatar_image_tag(current_user.email, alt: current_user.username) %>
     </div>
   </div>
 </div>
