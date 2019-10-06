@@ -11,13 +11,12 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, class: 'text-field' %>
   </div>
 
-  <div class="field">
-    <%= form.label :content %>
+  <div class="form-group">
     <%= form.rich_text_area :content %>
   </div>
 

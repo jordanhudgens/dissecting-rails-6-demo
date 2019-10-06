@@ -1,7 +1,13 @@
 .form-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  margin-bottom: 30px;
+
   label {
     display: inline-block;
     margin-bottom: 0.5rem;
+    font-family: $font-regular;
   }
 
   .text-field {
@@ -9,5 +15,7 @@
     width: 100%;
     border: 1px solid #d3dce6;
     border-radius: 3px;
+    font-size: 1rem;
+    padding-left: 10px;
   }
 }
