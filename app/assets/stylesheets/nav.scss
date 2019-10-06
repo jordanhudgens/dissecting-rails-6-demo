@@ -40,18 +40,8 @@
           margin-left: 2px;
         }
 
-        .nav-icon {
-          height: 12px;
-          path {
-            fill: $highlight !important;
-          }
-        }
-
         &:hover {
           color: $primary;
-          path {
-            fill: $primary !important;
-          }
         }
       }
 
