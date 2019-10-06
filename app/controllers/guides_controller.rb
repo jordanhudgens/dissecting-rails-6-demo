@@ -66,7 +66,6 @@ class GuidesController < ApplicationController
         :title,
         :content,
         :topic_id,
-        :user_id,
         :status,
         :featured_image
       )

@@ -19,6 +19,14 @@
 
     <div class="form-group">
       <label>Featured image</label>
+      <%= form.file_field :featured_image, class: "input" %>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="form-group">
+      <%= form.label :topic_id %>
+      <%= form.text_field :topic_id, class: 'text-field' %>
     </div>
   </div>
 
