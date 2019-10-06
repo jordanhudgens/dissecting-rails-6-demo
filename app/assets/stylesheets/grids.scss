@@ -1,0 +1,4 @@
+.grid-1 {
+  @include base-grid();
+  grid-template-columns: 1fr;
+}
