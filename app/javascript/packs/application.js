@@ -17,4 +17,3 @@ require('channels');
 
 require('trix');
 require('@rails/actiontext');
-require('active_storage_drag_and_drop');
