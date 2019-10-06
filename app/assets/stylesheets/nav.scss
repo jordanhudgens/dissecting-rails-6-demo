@@ -60,4 +60,10 @@
       }
     }
   }
+
+  &__right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
