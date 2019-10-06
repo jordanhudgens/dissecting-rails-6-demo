@@ -1,7 +1,9 @@
 <div class="nav-wrapper">
   <div class="nav-wrapper__left">
     <div class="nav-wrapper__left__logo">
-      <%= image_tag("logo.png") %>
+      <%= link_to root_path do %>
+        <%= image_tag("logo.png") %>
+      <% end %>
     </div>
 
     <div class="nav-wrapper__left__link">
