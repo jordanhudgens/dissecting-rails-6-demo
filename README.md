@@ -40,6 +40,7 @@
 * [ ] Encrypted credentials - https://www.dailysmarty.com/posts/cheat-sheet-for-working-with-rails-encrypted-credentials
 * [x] Active Storage - https://www.dailysmarty.com/posts/steps-for-using-active-storage-to-upload-files-to-s3-with-ruby-on-rails
 * [x] Work with Stimulus JS - https://medium.com/cedarcode/installing-stimulus-js-in-a-rails-app-c8564ba51ea2
+* [x] Scss BEM styling - http://getbem.com/naming/
 * [x] Use Tailwind CSS
 
 Next todos:
