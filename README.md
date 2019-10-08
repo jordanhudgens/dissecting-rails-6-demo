@@ -18,7 +18,7 @@
 * [x] Show how to use a different port with the rails server
 * [x] Rails c
 * [x] Seeds with Faker
-* [ ] Show how partials work, including working with locals
+* [x] Show how partials work, including working with locals
 * [ ] Design implementation
 * [x] Working with images from the asset pipeline
 * [x] Utilizing Scss
@@ -43,4 +43,4 @@
 
 Next todos:
 
->
+> Finish out styles for the lists, it's currently being called on the guides page
