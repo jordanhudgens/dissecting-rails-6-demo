@@ -1,7 +1,8 @@
-.nav-icon {
-  height: 12px;
+.nav-icon,
+.nav-icon-lg {
   path {
     fill: $highlight !important;
+    transition: 0.5s ease-in-out;
   }
 
   &:hover {
@@ -10,4 +11,14 @@
       fill: $primary !important;
     }
   }
+}
+
+.nav-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.nav-icon-lg {
+  height: 21px;
+  width: 21px;
 }
