@@ -1,15 +1,19 @@
 <div class="list-container__item">
   <div class="list-container__item__thumb">
-    <% if guide.featured_image.attached? %>
-      <%= image_tag(guide.featured_image) %>
-    <% else %>
-      <%= image_tag('placeholders/empty-thumb.png') %>
+    <%= link_to guide do %>
+      <% if guide.featured_image.attached? %>
+        <%= image_tag(guide.featured_image) %>
+      <% else %>
+        <%= image_tag('placeholders/empty-thumb.png') %>
+      <% end %>
     <% end %>
   </div>
 
   <div class="list-container__item__content">
     <div class="guide-title">
-      <%= guide.title %>
+      <%= link_to guide do %>
+        <%= guide.title %>
+      <% end %>
     </div>
   </div>
 
