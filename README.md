@@ -8,6 +8,8 @@
 * [x] Authentication with Devise
 * [x] Protecting routes with `authenticate_user!`
 * [x] Model generator for Topic
+* [x] Symbols vs strings
+* [x] Strong params
 * [x] Model generator for Following/self referential
 * [x] Scaffold generator for Guide
 * [x] Authorization with Petergate
