@@ -1,4 +1,12 @@
 .guide-title {
   font-family: $font-bold;
-  font-size: 1.1em;
+  font-size: 22px;
+  a {
+    color: black;
+    transition: 0.5s ease-in-out;
+
+    &:hover {
+      color: $primary;
+    }
+  }
 }
