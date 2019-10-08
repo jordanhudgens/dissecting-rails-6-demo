@@ -43,4 +43,4 @@
 
 Next todos:
 
-> Finalized the nav bar by styling the dropdown and avatar
+>
