@@ -5,7 +5,11 @@
     display: flex;
     justify-content: space-between;
 
-    &__thumb {
+    &__thumb img {
+      border-radius: 5px;
+      object-fit: cover;
+      width: 119px;
+      height: 84px;
     }
 
     &__content {
