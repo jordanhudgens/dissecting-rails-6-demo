@@ -32,6 +32,7 @@
 * [x] Install font awesome
 * [x] Work with gravatars
 * [x] Integrating data validations
+* [ ] Pagination
 * [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [x] Action Text - https://edgeguides.rubyonrails.org/action_text_overview.html
 * [ ] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
