@@ -25,6 +25,7 @@
 * [x] Working with images from the asset pipeline
 * [x] Adding custom styles for images
 * [x] Utilizing Scss
+* [x] Truncate text
 * [x] Link tag, inline and with block
 * [x] Scss variables
 * [x] Setting page title and descriptions for SEO

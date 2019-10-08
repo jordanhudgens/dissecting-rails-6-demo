@@ -12,7 +12,7 @@
   <div class="list-container__item__content">
     <div class="guide-title">
       <%= link_to guide do %>
-        <%= guide.title %>
+        <%= guide.title.truncate(60) %>
       <% end %>
     </div>
   </div>
