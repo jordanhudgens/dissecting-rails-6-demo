@@ -1,3 +1,8 @@
 .list-container {
   @include base-grid();
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
 }
