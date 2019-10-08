@@ -23,6 +23,7 @@
 * [x] Show how partials work, including working with locals
 * [ ] Design implementation
 * [x] Working with images from the asset pipeline
+* [x] Adding custom styles for images
 * [x] Utilizing Scss
 * [x] Link tag, inline and with block
 * [x] Scss variables
