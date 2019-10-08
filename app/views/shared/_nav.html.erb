@@ -46,17 +46,21 @@
 
   <div class="nav-wrapper__right">
     <% if current_user %>
-      <%= link_to new_guide_path, class: "btn-primary" do %>
-        New Post
-      <% end %>
+      <div class="nav-wrapper__right__link">
+        <%= link_to new_guide_path, class: "btn-primary" do %>
+          New Post
+        <% end %>
+      </div>
 
       <div class="nav-wrapper__right__avatar">
         <%= gravatar_image_tag(current_user.email, alt: current_user.username) %>
       </div>
 
-      <%= link_to root_path do %>
-        <%= inline_svg('settings-icon.svg', class: 'nav-icon', style: 'height: 15px;') %>
-      <% end %>
+      <div class="nav-wrapper__right__link">
+        <%= link_to root_path do %>
+          <%= inline_svg('settings-icon.svg', class: 'nav-icon', style: 'height: 15px;') %>
+        <% end %>
+      </div>
     <% else %>
     <% end %>
   </div>
