@@ -49,4 +49,4 @@
 
 Next todos:
 
-> Finish out styles for the lists, it's currently being called on the guides page
+> Finish the styles for the registration page
