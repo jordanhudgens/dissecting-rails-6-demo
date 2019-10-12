@@ -23,21 +23,24 @@
     }
 
     &__link {
-      margin: 0px 15px;
-      height: 67px;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0px 15px;
+      height: 67px;
       border-bottom: 2px solid transparent;
       transition: 0.5s ease-in-out;
 
       a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: $font-light;
         font-size: 0.9em;
         color: $highlight;
 
         span {
-          margin-left: 2px;
+          margin-left: 8px;
         }
 
         &:hover {

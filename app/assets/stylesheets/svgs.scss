@@ -14,8 +14,11 @@
 }
 
 .nav-icon {
-  height: 12px;
-  width: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
 }
 
 .nav-icon-lg {
