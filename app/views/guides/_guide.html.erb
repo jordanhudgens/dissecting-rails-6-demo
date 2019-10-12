@@ -18,6 +18,14 @@
   </div>
 
   <div class="list-container__item__ratings">
-    Ratings
+    <%= link_to root_path do %>
+      <%= inline_svg('upvote.svg', class: 'vote-icon') %>
+    <% end %>
+
+    <div>42</div>
+
+    <%= link_to root_path do %>
+      <%= inline_svg('downvote.svg', class: 'vote-icon') %>
+    <% end %>
   </div>
 </div>
