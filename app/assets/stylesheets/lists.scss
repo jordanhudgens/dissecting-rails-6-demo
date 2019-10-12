@@ -21,6 +21,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
+
+      &__counter {
+        font-family: $font-bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0px;
+      }
     }
   }
 }
