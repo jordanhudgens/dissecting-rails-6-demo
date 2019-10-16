@@ -51,4 +51,4 @@
 
 Next todos:
 
-> Finish the styles for the registration page
+> Implement pagintaion for posts and add other post content
