@@ -33,12 +33,12 @@
         </div>
       </div>
 
-      <div class="actions">
-        <%= f.submit "Sign up" %>
+      <div class="center">
+        <%= f.submit "Sign up", class: "btn-primary" %>
       </div>
     <% end %>
 
-    <%= render "devise/shared/links" %>
+    <div class="center devise-links">Already have an account? <%= link_to "Login", new_user_session_path %></div>
   </div>
 </div>
 
