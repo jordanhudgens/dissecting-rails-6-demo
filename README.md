@@ -22,6 +22,8 @@
 * [x] Seeds with Faker
 * [x] Show how partials work, including working with locals
 * [ ] Design implementation
+* [x] form_for
+* [x] form helpers
 * [x] Working with images from the asset pipeline
 * [x] Adding custom styles for images
 * [x] Utilizing Scss
