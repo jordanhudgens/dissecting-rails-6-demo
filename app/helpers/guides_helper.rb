@@ -8,6 +8,6 @@ module GuidesHelper
   end
 
   def guide_timestamp guide
-    "submitted #{distance_of_time_in_words(guide.created_at, Time.now) } ago by TODO".html_safe
+    "submitted #{distance_of_time_in_words(guide.created_at, Time.now) } ago by #{link_to guide.user.username, profile_path(guide.user.username)}".html_safe
   end
 end
