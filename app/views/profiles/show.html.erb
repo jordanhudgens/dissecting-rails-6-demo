@@ -1,1 +1,13 @@
-<h1><%= @user.inspect %></h1>
+<div class="container-lg card">
+  <div class="card__heading">
+    <%= @user.username %>
+  </div>
+
+  <div class="list-container">
+    <%= render @guides %>
+  </div>
+
+  <div class="right vertical-spacer">
+    <%= paginate @guides %>
+  </div>
+</div>
