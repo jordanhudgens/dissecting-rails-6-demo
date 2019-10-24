@@ -1,16 +1,11 @@
 <div class="guide">
-  <p id="notice"><%= notice %></p>
-
-  <p>
-    <strong>Title:</strong>
+  <div class="guide-title">
     <%= @guide.title %>
-  </p>
+  </div>
 
-  <% if @guide.featured_image.attached? %>
-    <div>
-      <%= image_tag @guide.featured_image %>
-    </div>
-  <% end %>
+  <div>
+    <%= guide_banner(@guide) %>
+  </div>
 
   <p>
     <strong>Content:</strong>

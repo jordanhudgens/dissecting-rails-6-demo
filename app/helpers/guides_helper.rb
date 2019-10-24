@@ -7,6 +7,12 @@ module GuidesHelper
     end
   end
 
+  def guide_banner guide
+    if guide.featured_image.attached?
+      image_tag(guide.featured_image, class: "guide-banner")
+    end
+  end
+
   def guide_timestamp guide
     formatted_time = distance_of_time_in_words(guide.created_at, Time.now)
     profile_link = link_to guide.user.username, profile_path(guide.user.username)
