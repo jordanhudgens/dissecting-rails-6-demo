@@ -18,4 +18,20 @@ module GuidesHelper
     profile_link = link_to guide.user.username, profile_path(guide.user.username)
     "submitted #{formatted_time} ago by #{profile_link}".html_safe
   end
+
+  def guide_actions guide
+    if current_user && guide.user == current_user
+      edit_link = content_tag :div, class: "action-icon" do
+        link_to inline_svg('settings-icon.svg', class: 'nav-icon'), edit_guide_path(guide)
+      end
+
+      delete_link = content_tag :div, class: "action-icon" do
+        link_to inline_svg('settings-icon.svg', class: 'nav-icon'), edit_guide_path(guide)
+      end
+
+      content_tag :div, class: "guide-actions" do
+        edit_link + delete_link
+      end
+    end
+  end
 end
