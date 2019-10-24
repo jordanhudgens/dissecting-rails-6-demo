@@ -7,7 +7,7 @@ class GuidesController < ApplicationController
   access all: [:show, :index], user: :all, admin: :all
 
   def index
-    @guides = Guide.all
+    @guides = Guide.order("created_at DESC").page(params[:page]).per(20)
   end
 
   def show
