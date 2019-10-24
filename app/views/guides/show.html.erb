@@ -3,6 +3,16 @@
     <%= @guide.title %>
   </div>
 
+  <div class="guide__metadata">
+    <div class="topic-for-guide">
+      <%= link_to @guide.topic.title, topic_path(@guide.topic) %>
+    </div>
+
+    <div class="guide-timestamp">
+      <%= guide_timestamp(@guide) %>
+    </div>
+  </div>
+
   <div>
     <%= guide_banner(@guide) %>
   </div>
