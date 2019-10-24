@@ -6,4 +6,8 @@ module GuidesHelper
       image_tag('placeholders/empty-thumb.png')
     end
   end
+
+  def guide_timestamp guide
+    "submitted #{distance_of_time_in_words(guide.created_at, Time.now) } ago by TODO".html_safe
+  end
 end
