@@ -8,6 +8,8 @@ module GuidesHelper
   end
 
   def guide_timestamp guide
-    "submitted #{distance_of_time_in_words(guide.created_at, Time.now) } ago by #{link_to guide.user.username, profile_path(guide.user.username)}".html_safe
+    formatted_time = distance_of_time_in_words(guide.created_at, Time.now)
+    profile_link = link_to guide.user.username, profile_path(guide.user.username)
+    "submitted #{formatted_time} ago by #{profile_link}".html_safe
   end
 end
