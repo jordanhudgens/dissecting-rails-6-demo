@@ -1,11 +1,7 @@
 <div class="list-container__item">
   <div class="list-container__item__thumb">
     <%= link_to guide do %>
-      <% if guide.featured_image.attached? %>
-        <%= image_tag(guide.featured_image) %>
-      <% else %>
-        <%= image_tag('placeholders/empty-thumb.png') %>
-      <% end %>
+      <%= guide_thumb(guide) %>
     <% end %>
   </div>
 
