@@ -10,22 +10,4 @@
   <div class="guide__content">
     <%= @guide.content %>
   </div>
-
-  <p>
-    <strong>Topic:</strong>
-    <%= @guide.topic_id %>
-  </p>
-
-  <p>
-    <strong>User:</strong>
-    <%= @guide.user_id %>
-  </p>
-
-  <p>
-    <strong>Status:</strong>
-    <%= @guide.status %>
-  </p>
-
-  <%= link_to 'Edit', edit_guide_path(@guide) %> |
-  <%= link_to 'Back', guides_path %>
 </div>
