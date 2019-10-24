@@ -12,6 +12,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+  validates_presence_of :username
+
   has_many :guides, dependent: :destroy
 
   has_many :users_are_following_this_user, class_name:  "Following",
