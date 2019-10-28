@@ -10,7 +10,8 @@
     font-family: $font-regular;
   }
 
-  .text-field {
+  .text-field,
+  select {
     height: 50px;
     width: 100%;
     border: 1px solid #d3dce6;
