@@ -39,3 +39,10 @@
     margin: 30px 0px;
   }
 }
+
+.guide-actions {
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: 20px 20px;
+  grid-gap: 10px;
+}
