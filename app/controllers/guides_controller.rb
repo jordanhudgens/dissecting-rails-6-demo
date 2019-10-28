@@ -1,10 +1,6 @@
 class GuidesController < ApplicationController
   before_action :set_guide, only: [:show, :edit, :update, :destroy]
-
-  # show both options
-  # maybe show a special route for all guides, even draft ones
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
-  access all: [:show, :index], user: :all, admin: :all
+  before_action :authenticate_user!, except: [:index, :show]
 
   def index
     @guides = Guide.order("created_at DESC").page(params[:page]).per(20)
