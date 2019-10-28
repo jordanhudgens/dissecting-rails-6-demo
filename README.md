@@ -51,4 +51,4 @@
 
 Next todos:
 
-> Style the action links in the guidehelper guide_actions helper method and add delete
+> Finalize the form styles
