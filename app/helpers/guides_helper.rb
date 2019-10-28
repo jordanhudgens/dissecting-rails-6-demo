@@ -26,7 +26,7 @@ module GuidesHelper
       end
 
       delete_link = content_tag :div, class: "action-icon" do
-        link_to guide, method: :delete do
+        link_to guide, method: :delete, data: { confirm: "Are you sure you want to delete this guide?" } do
           inline_svg('x-icon.svg', class: 'nav-icon')
         end
       end
