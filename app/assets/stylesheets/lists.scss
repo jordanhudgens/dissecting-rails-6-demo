@@ -6,13 +6,6 @@
     grid-template-columns: 119px 1fr 119px;
     grid-gap: 20px;
 
-    &__thumb img {
-      border-radius: 5px;
-      object-fit: cover;
-      width: 119px;
-      height: 84px;
-    }
-
     &__content {
       font-family: $font-regular;
     }

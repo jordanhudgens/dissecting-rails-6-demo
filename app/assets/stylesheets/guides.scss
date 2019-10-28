@@ -49,3 +49,10 @@
   grid-template-columns: 20px 20px;
   grid-gap: 10px;
 }
+
+.guide-thumb img {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 119px;
+  height: 84px;
+}
