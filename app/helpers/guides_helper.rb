@@ -26,7 +26,9 @@ module GuidesHelper
       end
 
       delete_link = content_tag :div, class: "action-icon" do
-        link_to inline_svg('x-icon.svg', class: 'nav-icon'), edit_guide_path(guide)
+        link_to guide, method: :delete do
+          inline_svg('x-icon.svg', class: 'nav-icon')
+        end
       end
 
       content_tag :div, class: "guide-actions" do
