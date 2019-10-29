@@ -24,9 +24,11 @@
   </div>
 
   <div class="flex-base guide-form-image">
-    <div class="guide-thumb">
-      <%= guide_thumb guide %>
-    </div>
+    <% if guide.featured_image.attached? %>
+      <div class="guide-thumb">
+        <%= guide_thumb guide %>
+      </div>
+    <% end %>
     <div class="form-group">
       <%= form.label :featured_image %>
       <%= form.file_field :featured_image %>
