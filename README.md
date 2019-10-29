@@ -53,4 +53,4 @@
 
 Next todos:
 
-> Finalize the form styles
+> You just created the profiles#index action, create the view and partial and then implement the following functionality
