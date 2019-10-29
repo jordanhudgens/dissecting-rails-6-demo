@@ -4,9 +4,10 @@ class Guide < ApplicationRecord
 
   include PgSearch::Model
   pg_search_scope :search_by_term,
-    against: [:title, :content],
+    against: [:title],
     associated_against: {
       topic: [:title],
+      rich_text_content: [:body]
     },
     using: {
       tsearch: {
