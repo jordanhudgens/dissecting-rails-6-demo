@@ -1,7 +1,9 @@
 <div class="flex-space-between">
   <div class="flex-base">
     <div class="user-avatar">
-      <%= gravatar_image_tag(profile.email, alt: profile.username) %>
+      <%= link_to profile_path(profile.id) do %>
+        <%= gravatar_image_tag(profile.email, alt: profile.username) %>
+      <% end %>
     </div>
     <div class="guide-title">
       <%= link_to profile_path(profile.id) do %>
