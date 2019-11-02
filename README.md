@@ -53,4 +53,4 @@
 
 Next todos:
 
-> You just created the profiles#index action, create the view and partial and then implement the following functionality
+> Start by ensuring that the click listener loads when the page loads, app/javascripts/lib/...
