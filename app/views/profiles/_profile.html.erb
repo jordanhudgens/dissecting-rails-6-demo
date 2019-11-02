@@ -1,0 +1,11 @@
+<div class="flex-space-between">
+  <div class="guide-title">
+    <%= link_to profile_path(profile.id) do %>
+      <%= profile.username %>
+    <% end %>
+  </div>
+
+  <div class="topic-counter">
+    <%= profile.guides.size %> guides
+  </div>
+</div>
