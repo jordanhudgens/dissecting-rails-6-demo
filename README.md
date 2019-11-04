@@ -53,4 +53,4 @@
 
 Next todos:
 
-> Start by ensuring that the click listener loads when the page loads, app/javascripts/lib/...
+> The followings controller is built and the js/lib/following function is functional. Now get the user id that needs to be followed/unfollowed from the view

@@ -1,5 +1,5 @@
 class FollowingsController < ApplicationController
   def create
-    render json: { status: "Hey" }
+    render json: { params: params.inspect }
   end
 end
