@@ -1,3 +1,5 @@
+import Rails from '@rails/ujs';
+
 const followUser = () => {
   Rails.ajax({
     url: '/followings',
