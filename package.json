@@ -8,6 +8,7 @@
     "@rails/ujs": "^6.0.0-alpha",
     "@rails/webpacker": "^4.0.7",
     "dropzone": "^5.5.1",
+    "rails-ujs": "^5.2.3",
     "stimulus": "^1.1.1",
     "tailwindcss": "~1.0.0",
     "trix": "^1.0.0",
