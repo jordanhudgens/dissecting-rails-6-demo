@@ -10,6 +10,7 @@ const followUser = (userId, el) => {
     success: function(data) {
       console.log('FOLLOWINGS', data);
       console.log('target element', el);
+      el.innerText = 'Following';
     },
   });
 };
