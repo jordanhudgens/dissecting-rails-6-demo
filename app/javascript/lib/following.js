@@ -12,16 +12,9 @@ const followUser = userId => {
 };
 
 document.addEventListener('turbolinks:load', function() {
-  const followBtn = document.querySelector('.follow-btn');
-  const userId = followBtn.dataset.userId;
-
-  if (followBtn) {
-    followBtn.addEventListener(
-      'click',
-      function() {
-        followUser(userId);
-      },
-      false,
-    );
-  }
+  document.addEventListener('click', function(evt) {
+    if (!evt.target.matches('.follow-btn')) return;
+    followUser(evt.target.dataset.userId);
+    evt.preventDefault();
+  });
 });
