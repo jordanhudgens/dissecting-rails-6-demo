@@ -36,6 +36,10 @@ class User < ApplicationRecord
     self.followers.where(id: user_id).any?
   end
 
+  def is_being_followed_by? user_id
+    self.following.where(id: user_id).any?
+  end
+
   private
 
     def auto_follow_account
