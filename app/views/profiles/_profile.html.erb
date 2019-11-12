@@ -22,16 +22,11 @@
 
         <% if current_user.is_following? profile.id %>
           <button class="btn-primary following-btn" data-user-id="<%= profile.id %>">Following</button>
-        <% end %>
-
-        <% if current_user.is_being_followed_by? profile.id %>
+        <% elsif current_user.is_being_followed_by? profile.id %>
           <button class="btn-primary follow-btn" data-user-id="<%= profile.id %>">Follow Back</button>
-        <% end %>
-
-        <% if !current_user.is_being_followed_by?(profile.id) && !current_user.is_following?(profile.id) %>
+        <% elsif !current_user.is_being_followed_by?(profile.id) && !current_user.is_following?(profile.id) %>
           <button class="btn-primary follow-btn" data-user-id="<%= profile.id %>">Follow</button>
         <% end %>
-
       <% else %>
         <%= link_to new_user_session_path do %>
           <button class="btn-primary follow-btn">Login to follow</button>
