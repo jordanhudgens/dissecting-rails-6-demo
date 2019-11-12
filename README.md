@@ -53,4 +53,4 @@
 
 Next todos:
 
-> The followings controller is built and the js/lib/following function is functional. Now get the user id that needs to be followed/unfollowed from the view
+> You've created the unfollow function, build out the followings#destroy function and then update the class name for each response
