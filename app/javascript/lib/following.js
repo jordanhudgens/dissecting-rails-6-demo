@@ -1,10 +1,12 @@
 import Rails from '@rails/ujs';
 
 const followUser = userId => {
-  console.log('PASSED IN USER ID', userId);
+  let formData = new FormData();
+  formData.append('user_id_to_follow', userId);
   Rails.ajax({
     url: '/followings',
     type: 'POST',
+    data: formData,
     success: function(data) {
       console.log('FOLLOWINGS', data);
     },
