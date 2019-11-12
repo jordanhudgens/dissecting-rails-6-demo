@@ -16,6 +16,6 @@ document.addEventListener('turbolinks:load', function() {
   document.addEventListener('click', function(evt) {
     if (!evt.target.matches('.follow-btn')) return;
     followUser(evt.target.dataset.userId);
-    evt.preventDefault();
+    evt.stopPropagation();
   });
 });
