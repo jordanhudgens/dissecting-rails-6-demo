@@ -32,6 +32,10 @@ class User < ApplicationRecord
 
   after_create :auto_follow_account
 
+  def is_following? user_id
+    self.followers.where(id: user_id).any?
+  end
+
   private
 
     def auto_follow_account
