@@ -12,6 +12,7 @@ const followUser = userId => {
 };
 
 document.addEventListener('turbolinks:load', function() {
+  // Event delegation
   document.addEventListener('click', function(evt) {
     if (!evt.target.matches('.follow-btn')) return;
     followUser(evt.target.dataset.userId);
