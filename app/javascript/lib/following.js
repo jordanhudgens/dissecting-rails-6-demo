@@ -8,9 +8,22 @@ const followUser = (userId, el) => {
     type: 'POST',
     data: formData,
     success: function(data) {
-      console.log('FOLLOWINGS', data);
-      console.log('target element', el);
+      // SET CLASS
       el.innerText = 'Following';
+    },
+  });
+};
+
+const unfollowUser = (userId, el) => {
+  let formData = new FormData();
+  formData.append('user_id_to_unfollow', userId);
+  Rails.ajax({
+    url: '/followings',
+    type: 'DELETE',
+    data: formData,
+    success: function(data) {
+      // SET CLASS
+      el.innerText = 'Follow';
     },
   });
 };
@@ -18,9 +31,16 @@ const followUser = (userId, el) => {
 document.addEventListener('turbolinks:load', function() {
   // Event delegation
   document.addEventListener('click', function(evt) {
-    if (!evt.target.matches('.follow-btn')) return;
-    const userId = evt.target.dataset.userId;
-    followUser(userId, evt.target);
+    if (evt.target.matches('.follow-btn')) {
+      const userId = evt.target.dataset.userId;
+      followUser(userId, evt.target);
+    }
+
+    if (evt.target.matches('.unfollow-btn')) {
+      const userId = evt.target.dataset.userId;
+      unfollowUser(userId, evt.target);
+    }
+
     evt.stopPropagation();
   });
 });
