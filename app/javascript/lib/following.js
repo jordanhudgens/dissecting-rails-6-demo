@@ -1,6 +1,7 @@
 import Rails from '@rails/ujs';
 
-const followUser = () => {
+const followUser = userId => {
+  console.log('PASSED IN USER ID', userId);
   Rails.ajax({
     url: '/followings',
     type: 'POST',
@@ -12,12 +13,13 @@ const followUser = () => {
 
 document.addEventListener('turbolinks:load', function() {
   const followBtn = document.querySelector('.follow-btn');
+  const userId = followBtn.dataset.userId;
 
   if (followBtn) {
     followBtn.addEventListener(
       'click',
       function() {
-        followUser();
+        followUser(userId);
       },
       false,
     );
