@@ -11,4 +11,7 @@ class FollowingsController < ApplicationController
       render json: { errors: following.errors, status: 422 }
     end
   end
+
+  def destroy
+  end
 end
