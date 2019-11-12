@@ -18,7 +18,13 @@
     </div>
 
     <div class="follow-button-wrapper">
-      <button class="btn-primary follow-btn" data-user-id="<%= profile.id %>">Follow</button>
+      <% if current_user %>
+        <button class="btn-primary follow-btn" data-user-id="<%= profile.id %>">Follow</button>
+      <% else %>
+        <%= link_to new_user_session_path do %>
+          <button class="btn-primary follow-btn">Login to follow</button>
+        <% end %>
+      <% end %>
     </div>
   </div>
 </div>
