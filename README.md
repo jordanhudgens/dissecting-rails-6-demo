@@ -41,7 +41,7 @@
 * [x] Integrating data validations
 * [x] Pagination
 * [x] Advanced self referential database relationships for creating user connections
-* [ ] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
+* [x] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [x] Action Text - https://edgeguides.rubyonrails.org/action_text_overview.html
 * [x] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
 * [ ] Extract for db queries - https://blog.bigbinary.com/2019/06/24/rails-6-adds-array-extract.html
@@ -53,4 +53,4 @@
 
 Next todos:
 
-> Homepage feed
+> Implement UI for homepage
