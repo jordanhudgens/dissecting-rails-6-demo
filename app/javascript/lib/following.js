@@ -8,8 +8,9 @@ const followUser = (userId, el) => {
     type: 'POST',
     data: formData,
     success: function(data) {
-      // SET CLASS
       el.innerText = 'Following';
+      el.classList.remove('follow-btn');
+      el.classList.add('following-btn');
     },
   });
 };
@@ -19,8 +20,9 @@ const unfollowUser = (userId, el) => {
     url: `/followings/${userId}`,
     type: 'DELETE',
     success: function(data) {
-      // SET CLASS
       el.innerText = 'Follow';
+      el.classList.remove('following-btn');
+      el.classList.add('follow-btn');
     },
   });
 };
