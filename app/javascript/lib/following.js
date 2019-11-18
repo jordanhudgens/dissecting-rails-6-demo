@@ -15,12 +15,9 @@ const followUser = (userId, el) => {
 };
 
 const unfollowUser = (userId, el) => {
-  let formData = new FormData();
-  formData.append('user_id_to_unfollow', userId);
   Rails.ajax({
-    url: '/followings',
+    url: `/followings/${userId}`,
     type: 'DELETE',
-    data: formData,
     success: function(data) {
       // SET CLASS
       el.innerText = 'Follow';
@@ -36,7 +33,7 @@ document.addEventListener('turbolinks:load', function() {
       followUser(userId, evt.target);
     }
 
-    if (evt.target.matches('.unfollow-btn')) {
+    if (evt.target.matches('.following-btn')) {
       const userId = evt.target.dataset.userId;
       unfollowUser(userId, evt.target);
     }
