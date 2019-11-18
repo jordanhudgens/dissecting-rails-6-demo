@@ -13,5 +13,15 @@ class FollowingsController < ApplicationController
   end
 
   def destroy
+    following = Following.find_by(
+      follower_id: current_user.id,
+      followed_id: params[:user_id_to_unfollow]
+    )
+
+    if following.destroy
+      render json: { msg: "USER_UNFOLLOWED" }
+    else
+      render json: { errors: following.errors, status: 422 }
+    end
   end
 end
