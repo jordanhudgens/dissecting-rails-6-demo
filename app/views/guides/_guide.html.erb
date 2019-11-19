@@ -8,7 +8,7 @@
   <div class="list-container__item__content">
     <div class="guide-title">
       <%= link_to guide do %>
-        <%= guide.title.truncate(60) %>
+        <%= guide.title.truncate(70) %>
       <% end %>
     </div>
 
@@ -19,19 +19,5 @@
     <div class="guide-timestamp">
       <%= guide_timestamp(guide) %>
     </div>
-  </div>
-
-  <div class="list-container__item__ratings">
-    <%= link_to root_path do %>
-      <%= inline_svg('upvote.svg', class: 'vote-icon') %>
-    <% end %>
-
-    <div class="list-container__item__ratings__counter">
-      42
-    </div>
-
-    <%= link_to root_path do %>
-      <%= inline_svg('downvote.svg', class: 'vote-icon') %>
-    <% end %>
   </div>
 </div>

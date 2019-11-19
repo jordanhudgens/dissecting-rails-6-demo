@@ -3,24 +3,11 @@
 
   &__item {
     @include base-grid();
-    grid-template-columns: 119px 1fr 119px;
+    grid-template-columns: 119px 1fr;
     grid-gap: 20px;
 
     &__content {
       font-family: $font-regular;
-    }
-
-    &__ratings {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-
-      &__counter {
-        font-family: $font-bold;
-        margin-top: 15px;
-        margin-bottom: 9px;
-      }
     }
   }
 }

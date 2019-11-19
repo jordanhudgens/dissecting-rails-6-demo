@@ -2,7 +2,7 @@
 
 * [x] Rails new
 * [x] Git
-* [ ] Project manager
+* [x] Project manager
 * [x] File system
 * [x] Homepage with controller generator
 * [x] Authentication with Devise
@@ -44,7 +44,6 @@
 * [x] Service objects - https://www.ombulabs.com/blog/rails/service-objects.html
 * [x] Action Text - https://edgeguides.rubyonrails.org/action_text_overview.html
 * [x] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
-* [ ] Extract for db queries - https://blog.bigbinary.com/2019/06/24/rails-6-adds-array-extract.html
 * [x] Encrypted credentials - https://www.dailysmarty.com/posts/cheat-sheet-for-working-with-rails-encrypted-credentials
 * [x] Active Storage - https://www.dailysmarty.com/posts/steps-for-using-active-storage-to-upload-files-to-s3-with-ruby-on-rails
 * [x] Work with Stimulus JS - https://medium.com/cedarcode/installing-stimulus-js-in-a-rails-app-c8564ba51ea2
