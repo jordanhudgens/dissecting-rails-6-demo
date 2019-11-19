@@ -1,1 +1,9 @@
-<%= @guides.inspect %>
+<div class="container-lg card">
+  <div class="list-container">
+    <%= render @guides %>
+  </div>
+
+  <div class="right vertical-spacer">
+    <%= paginate @guides %>
+  </div>
+</div>
