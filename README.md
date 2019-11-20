@@ -52,4 +52,4 @@
 
 Next todos:
 
-> Implement UI for homepage
+> Action Cable for live updating posts
