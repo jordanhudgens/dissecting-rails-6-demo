@@ -52,4 +52,4 @@
 
 Next todos:
 
-> Action Cable for live updating posts
+> Updated system so can be deployed, specifically the redis integration

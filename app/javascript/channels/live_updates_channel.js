@@ -5,7 +5,6 @@ document.addEventListener('turbolinks:load', function() {
 
   if (guide) {
     var guideId = guide.dataset.guideId;
-    console.log('guide id outside', guideId);
 
     consumer.subscriptions.create(
       {channel: 'LiveUpdatesChannel', id: guideId},
@@ -15,7 +14,8 @@ document.addEventListener('turbolinks:load', function() {
         },
 
         received(data) {
-          console.log('Received update', data);
+          console.log('Received update', data.body);
+          guide.innerHTML = data.body;
         },
       },
     );

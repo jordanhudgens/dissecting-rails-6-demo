@@ -1,4 +1,4 @@
-<div class="guide" id="guide-show" data-guide-id="<%= @guide.id %>">
+<div class="guide">
   <div class="guide-title">
     <%= @guide.title %>
   </div>
@@ -23,7 +23,7 @@
     <%= guide_banner(@guide) %>
   </div>
 
-  <div class="guide__content">
+  <div class="guide__content" id="guide-show" data-guide-id="<%= @guide.id %>">
     <%= @guide.content %>
   </div>
 </div>
