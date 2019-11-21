@@ -1,17 +1,24 @@
 import consumer from './consumer';
 
-consumer.subscriptions.create(
-  {channel: 'LiveUpdatesChannel', id: 123},
-  {
-    // Called when the subscription is ready for use on the server.
-    connected() {
-      const guide = document.querySelector('#guide-show');
+document.addEventListener('turbolinks:load', function() {
+  const guide = document.querySelector('#guide-show');
 
-      console.log('Connected', guide);
-    },
+  if (guide) {
+    var guideId = guide.dataset.guideId;
+    console.log('guide id outside', guideId);
 
-    received(data) {
-      console.log('Received update', data);
-    },
-  },
-);
+    consumer.subscriptions.create(
+      {channel: 'LiveUpdatesChannel', id: guideId},
+      {
+        // Called when the subscription is ready for use on the server.
+        connected() {
+          // console.log('Connected', guideId);
+        },
+
+        received(data) {
+          console.log('Received update', data);
+        },
+      },
+    );
+  }
+});
