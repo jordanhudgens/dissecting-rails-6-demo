@@ -10,9 +10,8 @@ document.addEventListener('turbolinks:load', function() {
     consumer.subscriptions.create(
       {channel: 'LiveUpdatesChannel', id: guideId},
       {
-        // Called when the subscription is ready for use on the server.
         connected() {
-          // console.log('Connected', guideId);
+          console.log('Connected');
         },
 
         received(data) {
