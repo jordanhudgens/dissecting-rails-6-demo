@@ -1,17 +1,15 @@
 import consumer from './consumer';
 
-consumer.subscriptions.create('LiveUpdatesChannel', {
-  // Called when the subscription is ready for use on the server.
-  connected() {
-    console.log('Connected');
-  },
+consumer.subscriptions.create(
+  {channel: 'LiveUpdatesChannel', id: 123},
+  {
+    // Called when the subscription is ready for use on the server.
+    connected() {
+      console.log('Connected');
+    },
 
-  // Called when the WebSocket connection is closed.
-  disconnected() {
-    console.log('Disconnected');
+    received(data) {
+      console.log('Received update', data);
+    },
   },
-
-  received(data) {
-    console.log('Received update', data);
-  },
-});
+);

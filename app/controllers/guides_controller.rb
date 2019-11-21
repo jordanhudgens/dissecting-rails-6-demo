@@ -35,6 +35,9 @@ class GuidesController < ApplicationController
   def update
     respond_to do |format|
       if @guide.update(guide_params)
+        puts "UPDATING FOR GUIDE", @guide.id
+        ActionCable.server.broadcast("guide_channel_#{@guide.id}", id: @guide.id, content: @guide.content)
+
         format.html { redirect_to @guide, notice: 'Guide was successfully updated.' }
         format.json { render :show, status: :ok, location: @guide }
       else
