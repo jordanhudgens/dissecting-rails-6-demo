@@ -5,7 +5,9 @@ consumer.subscriptions.create(
   {
     // Called when the subscription is ready for use on the server.
     connected() {
-      console.log('Connected');
+      const guide = document.querySelector('#guide-show');
+
+      console.log('Connected', guide);
     },
 
     received(data) {
