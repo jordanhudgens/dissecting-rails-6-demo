@@ -1,7 +1,9 @@
 {
   "name": "DissectingRails6Demo",
   "private": true,
-  "engines": {"node": "10.15.3"},
+  "engines": {
+    "node": "12.4.0"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/actiontext": "^6.0.0",
