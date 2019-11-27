@@ -53,3 +53,4 @@
 Next todos:
 
 > Updated system so can be deployed, specifically the redis integration
+> Fix trix issue
