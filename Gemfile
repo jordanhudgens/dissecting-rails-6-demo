@@ -33,4 +33,5 @@ gem 'gravatar_image_tag', '~> 1.2'
 gem 'tailwindcss', '~> 1.0', '>= 1.0.2'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'pg_search'
+gem "aws-sdk-s3", require: false
 
