@@ -50,10 +50,12 @@ end
 puts "Guides created for admin"
 
 User.all.each do |user|
-  Following.create!(
-    follower_id: user.id,
-    followed_id: admin.id
-  )
+  if user.id != admin.id
+    Following.create!(
+      follower_id: user.id,
+      followed_id: admin.id
+    )
+  end
 end
 
 puts "Followings created for admin"
