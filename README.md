@@ -52,5 +52,5 @@
 
 Next todos:
 
+> Fix trix issue - now it's not showing up at all
 > Updated system so can be deployed, specifically the redis integration
-> Fix trix issue
