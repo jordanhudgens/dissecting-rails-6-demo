@@ -52,4 +52,4 @@
 
 Next todos:
 
-> Updated system so can be deployed, specifically the redis integration
+> Add the ability to mark a guide for live updates
