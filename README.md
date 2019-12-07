@@ -31,7 +31,7 @@
 * [x] Link tag, inline and with block
 * [x] Scss variables
 * [x] Setting page title and descriptions for SEO
-* [ ] Favicons
+* [x] Favicons
 * [x] Full text search, including how to work with associated content
 * [x] Custom fonts
 * [x] Debugging
@@ -49,7 +49,3 @@
 * [x] Work with Stimulus JS - https://medium.com/cedarcode/installing-stimulus-js-in-a-rails-app-c8564ba51ea2
 * [x] Scss BEM styling - http://getbem.com/naming/
 * [x] Use Tailwind CSS
-
-Next todos:
-
-> Add the ability to mark a guide for live updates

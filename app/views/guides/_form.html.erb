@@ -23,15 +23,22 @@
     </div>
   </div>
 
-  <div class="flex-base guide-form-image">
-    <% if guide.featured_image.attached? %>
-      <div class="guide-thumb">
-        <%= guide_thumb guide %>
+  <div class="grid-2">
+    <div class="flex-base guide-form-image">
+      <% if guide.featured_image.attached? %>
+        <div class="guide-thumb">
+          <%= guide_thumb guide %>
+        </div>
+      <% end %>
+      <div class="form-group">
+        <%= form.label :featured_image %>
+        <%= form.file_field :featured_image %>
       </div>
-    <% end %>
+    </div>
+
     <div class="form-group">
-      <%= form.label :featured_image %>
-      <%= form.file_field :featured_image %>
+      <%= form.label :live_updates %>
+      <%= form.check_box :live_updates, {}, true, false %>
     </div>
   </div>
 
