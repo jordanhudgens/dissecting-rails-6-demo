@@ -69,7 +69,8 @@ class GuidesController < ApplicationController
         :content,
         :topic_id,
         :status,
-        :featured_image
+        :featured_image,
+        :live_updates
       )
     end
 end
