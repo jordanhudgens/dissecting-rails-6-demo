@@ -46,6 +46,5 @@
 * [x] Webpacker - https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/
 * [x] Encrypted credentials - https://www.dailysmarty.com/posts/cheat-sheet-for-working-with-rails-encrypted-credentials
 * [x] Active Storage - https://www.dailysmarty.com/posts/steps-for-using-active-storage-to-upload-files-to-s3-with-ruby-on-rails
-* [x] Work with Stimulus JS - https://medium.com/cedarcode/installing-stimulus-js-in-a-rails-app-c8564ba51ea2
+* [x] CORS setup for direct uploads required by action text - https://edgeguides.rubyonrails.org/active_storage_overview.html#direct-uploads
 * [x] Scss BEM styling - http://getbem.com/naming/
-* [x] Use Tailwind CSS
