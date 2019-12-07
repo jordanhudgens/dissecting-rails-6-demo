@@ -55,7 +55,9 @@
       </div>
 
       <div class="nav-wrapper__right__avatar">
-        <%= gravatar_image_tag(current_user.email, alt: current_user.username) %>
+        <%= link_to profile_path(current_user) do %>
+          <%= gravatar_image_tag(current_user.email, alt: current_user.username) %>
+        <% end %>
       </div>
 
       <div class="nav-wrapper__right__link">
