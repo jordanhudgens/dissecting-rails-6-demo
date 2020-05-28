@@ -32,7 +32,7 @@ gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'inline_svg'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'gravatar_image_tag', '~> 1.2'
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
 gem 'pg_search'
 gem "aws-sdk-s3", require: false
 gem "loofah", ">= 2.3.1"
