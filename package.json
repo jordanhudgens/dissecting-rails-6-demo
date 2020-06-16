@@ -2,7 +2,7 @@
   "name": "DissectingRails6Demo",
   "private": true,
   "engines": {
-    "node": "13.2.0"
+    "node": "14.4.0"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",

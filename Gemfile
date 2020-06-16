@@ -36,4 +36,4 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'pg_search'
 gem "aws-sdk-s3", require: false
 gem "loofah", ">= 2.3.1"
-
+gem "activesupport", ">= 6.0.3.1"
